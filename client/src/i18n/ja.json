@@ -1,0 +1,66 @@
+{
+  "chooseLanguage": {
+    "vietnamese": "🇻🇳 ベトナム語",
+    "english": "🇺🇸 英語",
+    "japanese": "🇯🇵 日本語"
+  },
+  "backToTop": {
+    "back": "先頭",
+    "to": "へ",
+    "top": "戻る"
+  },
+  "navigators": {
+    "home": "ホーム",
+    "page": "ペー",
+    "my": "A",
+    "project": "作品",
+    "contact": "連絡",
+    "me": "先"
+  },
+  "clickMe": "クリックしてください",
+  "homePage": {
+    "secretCode": {
+      "whatIsThisCode": "これは何のコードですか ????",
+      "code": "－－・－－　・－　・－・－・　・－・－－　・・　－－－・－　・－・－・・"
+    },
+    "aboutMe": {
+      "greeting": {
+        "hello": "こんにちは。 ",
+        "myName": "クインアインです。",
+        "myJob": "フロントエンドウェブ開発者です。",
+        "myJobDetail": "私は美しいインターフェイスを作成することが大好きで、Web 開発者として取り組む各プロジェクトを通じて常に経験を積んでいます。私は子供の頃からコンピューターに情熱を持っており、常にゲーム開発者になりたいと思っていました。でも最終的にフロントエンド Web 開発者になりました. <3",
+        "nextStop": "➡ スキル ⤵"
+      },
+      "avatar": "TNQAです !!"
+    },
+    "skills": {
+      "title": "スキル",
+      "codingSkills": "コーディング . スキル",
+      "otherSkills": "その他"
+    },
+    "myPicture": "私のプロジェクトを見るには下のボタンをクリックしてください",
+    "toProjects": "↑ 作品のページへ ⤴"
+  },
+  "projects": {
+    "block": {
+      "b1": {
+        "time": " 2023年3月 - 2023年4月",
+        "name": " ア二ー ◍ 飴店"
+      },
+      "b2": {
+        "time": " 2023年3月 - 2023年4月",
+        "name": " ア二ー ◍ 映画サイト"
+      }
+    },
+    "detail": {
+      "live": "ライブ",
+      "source": "ソースコード",
+      "d1": {
+        "description": "An E-commerce website to sell candies. This project was built using Html, Css and Javascript with features such as product listing, product details and shopping cart."
+      },
+      "d2": {
+        "description": "An E-commerce website to sell candies. This project was built using Html, Css and Javascript with features such as product listing, product details and shopping cart."
+      }
+    }
+  }
+}

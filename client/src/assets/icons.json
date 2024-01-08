@@ -1,0 +1,54 @@
+{
+  "skills": [
+    {
+      "i": "fab fa-html5",
+      "name": "HTML"
+    },
+    {
+      "i": "fab fa-css3-alt",
+      "name": "CSS"
+    },
+    {
+      "i": "fab fa-js-square",
+      "name": "JavaScipt"
+    },
+    {
+      "i": "fab fa-react",
+      "name": "Reactjs"
+    },
+    {
+      "i": "fab fa-vuejs",
+      "name": "Vuejs"
+    },
+    {
+      "i": "fab fa-node-js",
+      "name": "Nodejs"
+    }
+  ],
+  "otherSkills": [
+    {
+      "i": "fab fa-bootstrap",
+      "name": "Bootstrap"
+    },
+    {
+      "i": "fas fa-database",
+      "name": "Mysql"
+    },
+    {
+      "i": "fab fa-wordpress",
+      "name": "Wordpress"
+    },
+    {
+      "i": "far fa-images",
+      "name": "Photoshop"
+    },
+    {
+      "i": "fas fa-play-circle",
+      "name": "Video-edit"
+    },
+    {
+      "i": "fab fa-microsoft",
+      "name": "MsOffice"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+.language-container {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 5;
+
+  select {
+    font-size: large;
+    padding: 5px;
+    border: 5px dotted whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+    width: 150px;
+    outline: none;
+    font-family: "Chalkboard";
+    cursor: pointer;
+    background-image: url("/images/option.jpg");
+    background-size: cover;
+
+    &:hover {
+      color: yellow;
+    }
+
+    option {
+      color: white;
+    }
+
+    option:checked,
+    option:hover {
+      background-color: black;
+      color: yellow;
+    }
+  }
+}

@@ -1,0 +1,283 @@
+.header-container {
+  font-family: "Chalkboard";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: yellow;
+  font-size: x-large;
+  padding: 10px 45px 30px 30px;
+
+  // Phần logo
+  .logo,
+  .logo-mid-yellow,
+  .logo-all-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 55px;
+    padding: 15px 15px 5px 15px;
+    border-radius: 50px 50px 0px 0px;
+    border-top: 5px dotted black;
+    border-bottom: 5px double black;
+
+    // Mỗi div là một chữ cái
+    div {
+      cursor: pointer;
+      transition-duration: 1s;
+
+      // Chữ lẻ
+      &:nth-child(odd):hover {
+        color: yellow;
+        background-color: blue;
+        border-radius: 100%;
+        transform: rotate(-25deg);
+        transition-duration: 0.8s;
+      }
+
+      // Chữ chẵn
+      &:nth-child(even):hover {
+        color: blue;
+        background-color: yellow;
+        border-radius: 100%;
+        transform: rotate(25deg);
+        transition-duration: 0.8s;
+      }
+    }
+
+    // Chữ cụ thể khi chưa xuất hiện
+    .t-none,
+    .n-none,
+    .q-none,
+    .a-none {
+      opacity: 0;
+      color: yellow;
+      transition-duration: 1s;
+      transform: translateY(-10px);
+    }
+
+    // Chữ cụ thể khi xuất hiện
+    .t-appear,
+    .n-appear,
+    .q-appear,
+    .a-appear {
+      opacity: 1;
+      color: whitesmoke;
+      transition-duration: 1s;
+    }
+  }
+
+  // Hiện phần border-top màu vàng
+  .logo-mid-yellow {
+    border-top: 5px dotted yellow;
+    transition-duration: 1s;
+  }
+
+  // Hiện nốt phần border-bottom
+  .logo-all-white {
+    border-top: 5px dotted whitesmoke;
+    border-bottom: 5px double whitesmoke;
+    transition-duration: 1.5s;
+    cursor: url("https://pngimg.com/d/chalk_PNG17.png"), pointer;
+
+    &:hover {
+      border-top: 5px dotted yellow;
+      border-bottom: 5px double blue;
+      transition-duration: 1s;
+    }
+  }
+
+  .deco-container-none {
+    opacity: 0;
+    width: 60%;
+    transition-duration: 5s;
+  }
+
+  .deco-container {
+    opacity: 1;
+    width: 60%;
+    transition-duration: 5s;
+  }
+
+  // Container của phần điều hướng ban đầu
+  .navi-none {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateY(15px);
+    gap: 35px;
+    border-bottom: 8px solid rgb(255, 0, 85);
+    border-radius: 25px;
+    opacity: 0;
+    padding-bottom: 5px;
+  }
+
+  // Container của phần điều hướng
+  .navi-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 35px;
+    opacity: 1;
+    padding-bottom: 5px;
+    transition-duration: 3s;
+    border-bottom: 8px double black;
+    border-radius: 10px;
+
+    // Css nút home-page
+    .home-page {
+      position: relative;
+      cursor: pointer;
+      color: whitesmoke;
+      text-decoration: none;
+
+      // Phần khoanh tròn của home-page
+      .home-page-circle {
+        position: absolute;
+        top: -20px;
+        left: -30px;
+
+        img {
+          width: 0px;
+          height: 0px;
+          transition-duration: 0.7s;
+        }
+      }
+
+      // Phần chữ của home-page
+      .home-page-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+      }
+
+      // Phần hover home-page khoanh tròn
+      &:hover img {
+        width: 185px;
+        height: 65px;
+        transition-duration: 0.5s;
+      }
+
+      // Phần hover home-page text
+      &:hover .home-page-text {
+        div:nth-child(even) {
+          color: rgb(68, 255, 239);
+          transition-duration: 1s;
+        }
+
+        div:nth-child(odd) {
+          color: yellow;
+          transition-duration: 1s;
+        }
+      }
+    }
+
+    // Css nút dự án
+    .projects {
+      position: relative;
+      cursor: pointer;
+      color: whitesmoke;
+      text-decoration: none;
+
+      // Phần line của dự án
+      .projects-line {
+        position: absolute;
+        top: -65px;
+        right: 0px;
+
+        img {
+          width: 0px;
+          height: 0px;
+          transition-duration: 0.7s;
+        }
+      }
+
+      // Phần chữ của dự án
+      .projects-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+      }
+
+      // Phần hover line dự án
+      &:hover img {
+        width: 100px;
+        height: 85px;
+        transition-duration: 0.7s;
+      }
+
+      // Phần hover dự án text
+      &:hover .projects-text {
+        div:nth-child(even) {
+          color: rgb(255, 0, 179);
+          transition-duration: 1s;
+          text-decoration: underline;
+        }
+
+        div:nth-child(odd) {
+          color: rgb(68, 255, 239);
+          transition-duration: 1s;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    // Css nút liên hệ
+    .contact {
+      position: relative;
+      cursor: pointer;
+      color: whitesmoke;
+      text-decoration: none;
+
+      // Phần line của dự án
+      .contact-circle {
+        position: absolute;
+        bottom: -30px;
+        right: -35px;
+
+        img {
+          width: 0px;
+          height: 0px;
+          transition-duration: 0.7s;
+        }
+      }
+
+      // Phần chữ của dự án
+      .contact-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+      }
+
+      // Phần hover line dự án
+      &:hover img {
+        width: 155px;
+        height: 95px;
+        transition-duration: 0.7s;
+      }
+
+      // Phần hover dự án text
+      &:hover .contact-text {
+        div:nth-child(even) {
+          color: greenyellow;
+          transition-duration: 1s;
+        }
+
+        div:nth-child(odd) {
+          color: rgb(255, 0, 179);
+          transition-duration: 1s;
+        }
+      }
+    }
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (max-width: 767px) {
+  .header-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "r0c0i Linotte";
+  src: url("/fonts/r0c0iLinotte-Light.woff2") format("woff2"),
+    url("/fonts/r0c0iLinotte-Light.woff2") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "r0c0i Linotte";
+  src: url("/fonts/r0c0iLinotte-Heavy.woff2") format("woff2"),
+    url("/fonts/r0c0iLinotte-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "r0c0i Linotte";
+  src: url("/fonts/r0c0iLinotte-Bold.woff2") format("woff2"),
+    url("/fonts/r0c0iLinotte-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "r0c0i Linotte";
+  src: url("/fonts/r0c0iLinotte-SemiBold.woff2") format("woff2"),
+    url("/fonts/r0c0iLinotte-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linotte";
+  src: url("/fonts/r0c0iLinotte-Regular.woff2") format("woff2"),
+    url("/fonts/r0c0iLinotte-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chalkboard";
+  src: url("/fonts/SVN-ChalkboardTheBest.woff2") format("woff2"),
+    url("/fonts/SVN-ChalkboardTheBest.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button-none {
+  opacity: 0;
+  transition-duration: 2s;
+}
+
+.button {
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+  cursor: pointer;
+  transition-duration: 1.5s;
+
+  span {
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Linotte";
+    border: 3px outset white;
+    width: 255px;
+    text-align: center;
+    border-radius: 25px;
+    transition-duration: 1s;
+
+    &:hover {
+      transform: translateY(-15px);
+      transition-duration: 0.4s;
+      color: yellow;
+      border-color: aqua;
+      border-bottom: 15px solid aqua;
+    }
+
+    &:active {
+      transition-duration: 0.1s;
+      transform: translateY(-5px);
+      border-bottom: 5px solid aqua;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (max-width: 767px) {
+}

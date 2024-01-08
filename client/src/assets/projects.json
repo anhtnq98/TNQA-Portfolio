@@ -1,0 +1,89 @@
+{
+  "projectBlock": [
+    {
+      "id": 1,
+      "time": "projects.block.b1.time",
+      "img": "/images/projects/candy-shop.png",
+      "imgMono": "/images/projects/candy-shop-mono.jpg",
+      "name": "projects.block.b1.name"
+    },
+    {
+      "id": 2,
+      "time": "projects.block.b2.time",
+      "img": "/images/projects/movie-online.png",
+      "imgMono": "/images/projects/movie-online-mono.png",
+      "name": "projects.block.b2.name"
+    },
+    {
+      "id": 3,
+      "time": "projects.block.b3.time",
+      "img": "/images/projects/movie-online.png",
+      "imgMono": "/images/projects/movie-online-mono.png",
+      "name": "projects.block.b3.name"
+    },
+    {
+      "id": 4,
+      "time": "projects.block.b4.time",
+      "img": "/images/projects/movie-online.png",
+      "imgMono": "/images/projects/movie-online-mono.png",
+      "name": "projects.block.b4.name"
+    }
+  ],
+  "projectDetail": [
+    {
+      "id": 1,
+      "img": "/images/projects/candy-shop.png",
+      "imgMono": "/images/projects/candy-shop-mono.jpg",
+      "name": "projects.block.b1.name",
+      "description": "projects.detail.d1.description",
+      "use": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "live": "",
+      "source": ""
+    },
+    {
+      "id": 2,
+      "time": "projects.block.b2.time",
+      "img": "/images/projects/movie-online.png",
+      "name": "projects.block.b2.name",
+      "description": "projects.detail.d2.description",
+      "use": [
+        "fab fa-html5",
+        "fab fa-css3-alt",
+        "fab fa-js-square",
+        "fab fa-react"
+      ],
+      "live": "",
+      "source": ""
+    },
+    {
+      "id": 3,
+      "time": "projects.block.b3.time",
+      "img": "/images/projects/movie-online.png",
+      "name": "projects.block.b3.name",
+      "description": "projects.detail.d3.description",
+      "use": [
+        "fab fa-html5",
+        "fab fa-css3-alt",
+        "fab fa-js-square",
+        "fab fa-react"
+      ],
+      "live": "",
+      "source": ""
+    },
+    {
+      "id": 4,
+      "time": "projects.block.b4.time",
+      "img": "/images/projects/movie-online.png",
+      "name": "projects.block.b4.name",
+      "description": "projects.detail.d3.description",
+      "use": [
+        "fab fa-html5",
+        "fab fa-css3-alt",
+        "fab fa-js-square",
+        "fab fa-react"
+      ],
+      "live": "",
+      "source": ""
+    }
+  ]
+}

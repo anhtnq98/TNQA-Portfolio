@@ -1,0 +1,11 @@
+.footer {
+  text-align: center;
+  margin: 15px;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (max-width: 767px) {
+  .footer {
+    text-align: left;
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "chooseLanguage": {
+    "english": "🇺🇸 Tiếng Anh",
+    "vietnamese": "🇻🇳 Tiếng Việt",
+    "japanese": "🇯🇵 Tiếng Nhật"
+  },
+  "backToTop": {
+    "back": "Trở Về",
+    "to": "Đầu",
+    "top": "Trang"
+  },
+  "navigators": {
+    "home": "Trang",
+    "page": "Chủ",
+    "my": "Dự",
+    "project": "Án",
+    "contact": "Liên",
+    "me": "Hệ"
+  },
+  "clickMe": "Click vào tôi nào",
+  "homePage": {
+    "secretCode": {
+      "whatIsThisCode": "Đây là mật mã gì vậy ????",
+      "code": "-..- .. -. / -.-. .... .- --- / -- --- .. / -. --. ..- --- .. --..-- / -- .. -. .... / - . -. / .-.. .- / - .... .- -. / -. --. --- -.-. / --.- ..- -.-- -. .... / .- -. ...."
+    },
+    "aboutMe": {
+      "greeting": {
+        "hello": "Xin chào, ",
+        "myName": "Mình là Quỳnh Anh",
+        "myJob": "Mình là một Frontend Web Developer",
+        "myJobDetail": "Mình yêu thích việc tạo ra những giao diện đẹp mắt và không ngừng tích lũy kinh nghiệm qua từng dự án mà mình đã làm với vai trò là một Nhà phát triển trang Web. Từ bé, mình đã có niềm đam mê với máy tính và luôn muốn trở thành một Nhà phát triển Game. Nhưng cuối cùng thì mình lại bén duyên và trở thành một Frontend Web Developer. <3",
+        "nextStop": "➡ Kỹ năng ⤵"
+      },
+      "avatar": "Là mình, TNQA nè !!"
+    },
+    "skills": {
+      "title": "Kỹ Năng",
+      "codingSkills": "Kỹ Năng Lập Trình",
+      "otherSkills": "Kỹ Năng Khác"
+    },
+    "myPicture": "Click vào nút bên dưới để xem các dự án của mình nhé",
+    "toProjects": "↑ Tới Trang Dự Án ⤴"
+  },
+  "projects": {
+    "block": {
+      "b1": {
+        "time": " 03/2023 - 04/2023",
+        "name": " Cửa Hàng Kẹo Anie"
+      },
+      "b2": {
+        "time": " 03/2023 - 04/2023",
+        "name": " Anie Movie And Life"
+      }
+    },
+    "detail": {
+      "live": "Xem Bản Live",
+      "source": "Nguồn Code",
+      "d1": {
+        "description": "An E-commerce website to sell candies. This project was built using Html, Css and Javascript with features such as product listing, product details and shopping cart."
+      },
+      "d2": {
+        "description": "An E-commerce website to sell candies. This project was built using Html, Css and Javascript with features such as product listing, product details and shopping cart."
+      }
+    }
+  }
+}

@@ -1,0 +1,564 @@
+.home-container {
+  // About me
+  .home-about-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 225px;
+
+    .home-secret-code-none {
+      opacity: 0;
+      width: 0%;
+      transform: translateX(25px);
+      color: aqua;
+      transition-duration: 2s;
+    }
+
+    // Code bí mật
+    .home-secret-code-container {
+      opacity: 100;
+      width: 5%;
+      cursor: pointer;
+      transition-duration: 2s;
+
+      h3 {
+        transition-duration: 1s;
+        margin: 15px 0 15px 0;
+      }
+
+      // code câu hỏi bí mật
+      .code-question {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        opacity: 0;
+        transition-duration: 1s;
+        background-color: black !important;
+        border-radius: 10%;
+        width: 0%;
+
+        img {
+          width: 0%;
+          transition-duration: 1s;
+        }
+
+        h4 {
+          font-family: "Linotte";
+          width: 140px;
+          text-align: center;
+          color: whitesmoke;
+          position: absolute;
+          top: 35%;
+          left: 26%;
+          transform: rotate(-15deg);
+          z-index: 5;
+          opacity: 0;
+          text-decoration: line-through;
+        }
+      }
+
+      &:hover h3:nth-child(1) {
+        color: aqua;
+        transition-duration: 0.7s;
+        rotate: -25deg;
+      }
+
+      &:hover h3:nth-child(2) {
+        color: yellow;
+        transition-duration: 0.7s;
+      }
+
+      &:hover h3:nth-child(3) {
+        color: aqua;
+        transition-duration: 0.7s;
+        rotate: 25deg;
+      }
+
+      &:hover .code-question {
+        opacity: 1;
+        top: 25%;
+        left: 85px;
+        transition-duration: 0.7s;
+        width: 295px;
+        padding-bottom: 85px;
+
+        img {
+          transition-duration: 0.7s;
+          width: 100%;
+        }
+
+        h4 {
+          color: aqua;
+          transition-duration: 0.5s;
+          opacity: 1;
+        }
+      }
+    }
+
+    // Giới thiệu về bản thân
+    .about-me-container {
+      display: flex;
+      justify-content: center;
+      gap: 45px;
+      width: 72%;
+      padding: 0 65px 0 0px;
+
+      .greeting {
+        font-family: "Linotte";
+
+        .my-name-none {
+          opacity: 0;
+          font-family: "Chalkboard";
+          font-size: 35px;
+          margin-bottom: 25px;
+          transform: translateY(-15px);
+          color: yellow;
+          transition-duration: 2s;
+        }
+
+        .my-name {
+          font-family: "Chalkboard";
+          font-size: 35px;
+          margin-bottom: 25px;
+          opacity: 1;
+          transition-duration: 2s;
+
+          span {
+            cursor: pointer;
+            border-radius: 15px;
+            border: 1px solid black;
+            padding: 5px;
+            font-weight: 500;
+            transition-duration: 1s;
+
+            &:nth-child(odd):hover {
+              color: yellow;
+              background-color: blue;
+              border: 1px solid yellow;
+              transition-duration: 0.7s;
+            }
+
+            &:nth-child(even):hover {
+              color: blue;
+              background-color: yellow;
+              border: 1px solid blue;
+              transition-duration: 0.7s;
+            }
+          }
+        }
+
+        .my-job-none {
+          opacity: 0;
+          transform: translateY(-15px);
+          font-size: x-large;
+          font-style: italic;
+          margin-bottom: 25px;
+          padding: 5px;
+          color: aqua;
+          transition-duration: 2s;
+        }
+
+        .my-job {
+          opacity: 1;
+          font-size: x-large;
+          font-style: italic;
+          margin-bottom: 25px;
+          padding: 5px;
+          transition-duration: 2s;
+          cursor: pointer;
+
+          &:hover {
+            transform: translateX(25px);
+            color: aqua;
+            transition-duration: 1.5s;
+          }
+        }
+
+        .my-job-detail-none {
+          opacity: 0;
+          font-size: 20px;
+          transform: scale(2);
+          padding: 5px;
+          transition-duration: 1.5s;
+        }
+
+        .my-job-detail {
+          opacity: 1;
+          font-size: 20px;
+          padding: 5px;
+          transition-duration: 1.5s;
+        }
+      }
+
+      .avatar-none {
+        opacity: 0;
+        transition-duration: 2s;
+      }
+
+      // Ảnh avatar chibi
+      .avatar {
+        cursor: pointer;
+        opacity: 1;
+        transition-duration: 2s;
+        animation-name: floating;
+        animation-duration: 3.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+      }
+    }
+  }
+
+  // Skill
+  .home-skill-container {
+    font-family: "Chalkboard";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 155px;
+
+    .home-skill-title-none,
+    .home-skill-title {
+      padding: 35px;
+      margin: 0 0 45px 0;
+      font-size: 100px;
+    }
+
+    .home-skill-title-none {
+      opacity: 0;
+      transform: translateY(-55px);
+      transition-duration: 0.5s;
+    }
+
+    .home-skill-title {
+      opacity: 1;
+      cursor: pointer;
+      transition-duration: 1.5s;
+
+      span {
+        border-radius: 50px;
+        border: 1px solid black;
+        padding: 5px;
+        transition-duration: 1s;
+      }
+
+      &:hover span:first-child,
+      &:hover span:last-child {
+        background-color: yellow;
+        color: blue;
+        border: 1px solid blue;
+        transition-duration: 0.5s;
+      }
+
+      &:hover span:nth-child(3) {
+        background-color: blue;
+        color: yellow;
+        border: 1px solid yellow;
+        transition-duration: 0.5s;
+      }
+
+      &:hover span:nth-child(even) {
+        color: rgb(255, 0, 85);
+        transition-duration: 0.5s;
+      }
+    }
+
+    .skill-line-none,
+    .skill-line {
+      width: 100%;
+      text-align: center;
+      font-size: xx-large;
+      font-style: italic;
+      padding: 35px 0;
+      border-bottom: 5px double whitesmoke;
+    }
+
+    .skill-line-none {
+      opacity: 0;
+      color: aqua;
+      transform: translateX(-75px);
+      transition-duration: 0.5s;
+    }
+
+    .skill-line {
+      opacity: 1;
+      transition-delay: 0.5s;
+      transition-duration: 1.5s;
+    }
+
+    .my-skill-container-none,
+    .my-skill-container {
+      opacity: 0;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: nowrap;
+      width: 100%;
+      gap: 155px;
+      margin-bottom: 100px;
+      transform: translateX(100%);
+      animation: scroll-left 40s linear infinite;
+      transition-duration: 0.5s;
+    }
+
+    // Dây kỹ năng
+    .my-skill-container {
+      opacity: 1;
+      transition-delay: 0.5s;
+      transition-duration: 1.5s;
+
+      .my-skill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+        cursor: pointer;
+        transition-duration: 1s;
+
+        i {
+          font-size: 100px;
+
+          &:nth-child(1) {
+            font-size: 45px;
+          }
+
+          &:nth-child(2) {
+            animation: hithere 2s linear infinite;
+          }
+        }
+
+        .skill-name {
+          font-size: x-large;
+        }
+
+        &:hover:nth-child(odd) {
+          color: aqua;
+          transition-duration: 0.5s;
+        }
+
+        &:hover:nth-child(odd) i:nth-child(2) {
+          color: yellow;
+          transition-duration: 0.5s;
+        }
+
+        &:hover:nth-child(even) {
+          color: greenyellow;
+          transition-duration: 0.5s;
+        }
+
+        &:hover:nth-child(even) i:nth-child(2) {
+          color: orange;
+          transition-duration: 0.5s;
+        }
+      }
+    }
+  }
+
+  // My Picture
+  .my-picture-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    padding: 25px;
+    margin-bottom: 55px;
+
+    .my-picture-none {
+      opacity: 0;
+      transform: translateX(-150px);
+      transition-duration: 0s;
+    }
+
+    .my-picture {
+      opacity: 1;
+      transition-duration: 2s;
+      cursor: pointer;
+
+      &:hover .mono {
+        opacity: 0.5;
+        transform: rotate(-25deg);
+        transition-duration: 2s;
+      }
+
+      &:hover .color {
+        opacity: 1;
+        transform: rotate(-15deg);
+        transition-duration: 0.5s;
+      }
+
+      .mono {
+        opacity: 1;
+        width: 350px;
+        border-radius: 25px;
+        overflow: hidden;
+        transition-duration: 2s;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .color {
+        opacity: 0;
+        position: absolute;
+        top: 25px;
+        width: 350px;
+        border-radius: 25px;
+        overflow: hidden;
+        transition-duration: 0.5s;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .text {
+      font-family: "Linotte";
+      font-size: x-large;
+      text-align: center;
+      transition-duration: 1s;
+      cursor: pointer;
+
+      .text-p-none {
+        opacity: 0;
+        transform: translateY(-65px);
+        transition-duration: 1s;
+      }
+
+      .text-p {
+        opacity: 1;
+        transition-delay: 1s;
+        transition-duration: 2s;
+      }
+
+      &:hover div:first-child {
+        color: aqua;
+        transition-duration: 0.5s;
+      }
+
+      .arrow-none {
+        opacity: 0;
+        transform: translateY(-65px);
+        transition-duration: 1s;
+      }
+
+      .arrow {
+        opacity: 1;
+        transition-delay: 2s;
+        transition-duration: 2s;
+
+        img {
+          margin-top: 55px;
+          width: 85px;
+        }
+      }
+    }
+  }
+
+  // Nút đến dự án
+  .to-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Linotte";
+
+    span {
+      width: 425px;
+      border: 3px outset white;
+      border-radius: 25px;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      transition-duration: 1s;
+
+      &:hover {
+        transition-duration: 0.4s;
+        color: yellow;
+        border-color: aqua;
+      }
+    }
+  }
+}
+
+// animation bay lên bay xuống
+@keyframes floating {
+  0% {
+    transform: translate(0, -15px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -15px);
+  }
+}
+
+// animation chạy list liên tục (marquee)
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes hithere {
+  30% {
+    transform: scale(1.2);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (max-width: 767px) {
+  .home-container {
+    .home-about-container {
+      margin-bottom: 105px;
+      .home-secret-code-container {
+        &:hover .code-question {
+          top: 50%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .about-me-container {
+        width: 75%;
+        padding: 0;
+      }
+    }
+
+    .home-skill-container {
+      .home-skill-title-none {
+        font-size: 85px;
+      }
+      .home-skill-title {
+        font-size: 65px;
+      }
+    }
+  }
+}

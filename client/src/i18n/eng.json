@@ -1,0 +1,80 @@
+{
+  "chooseLanguage": {
+    "english": "🇺🇸 English",
+    "vietnamese": "🇻🇳 Vietnamese",
+    "japanese": "🇯🇵 Japanese"
+  },
+  "backToTop": {
+    "back": "Back",
+    "to": "To",
+    "top": "Top"
+  },
+  "navigators": {
+    "home": "Home",
+    "page": "Page",
+    "my": "A",
+    "project": "Work",
+    "contact": "@",
+    "me": "Info"
+  },
+  "clickMe": "Click Me",
+  "homePage": {
+    "secretCode": {
+      "whatIsThisCode": "What is this code ????",
+      "code": ".... . .-.. .-.. --- / . ...- . .-. -.-- --- -. . .-.-.- / -- -.-- / -. .- -- . / .. ... / - .... .- -. / -. --. --- -.-. / --.- ..- -.-- -. .... / .- -. ...."
+    },
+    "aboutMe": {
+      "greeting": {
+        "hello": "Hello there, ",
+        "myName": "I'm Quynh Anh",
+        "myJob": "I'm A Frontend Web Developer",
+        "myJobDetail": "I love making beautiful interfaces and gain experience through all the works I have done as a Web Developer. Since childhood, I have had a passion for computers and always wanted to become a Game Developer. But now I became a Frontend Web Developer. <3",
+        "nextStop": "➡ My Skills ⤵"
+      },
+      "avatar": "It's me, TNQA !!"
+    },
+    "skills": {
+      "title": "Skills",
+      "codingSkills": "Coding Skills",
+      "otherSkills": "Other Skills"
+    },
+    "myPicture": "Click the button below to see my projects",
+    "toProjects": "↑ To Project Page ⤴"
+  },
+  "projects": {
+    "block": {
+      "b1": {
+        "time": " 03/2023 - 04/2023",
+        "name": " Anie Candy Store"
+      },
+      "b2": {
+        "time": " 03/2023 - 04/2023",
+        "name": " Anie Movie And Life"
+      },
+      "b3": {
+        "time": " 03/2023 - 04/2023",
+        "name": " Anie Movie And Life"
+      },
+      "b4": {
+        "time": " 03/2023 - 04/2023",
+        "name": " Anie Movie And Life"
+      }
+    },
+    "detail": {
+      "live": "Live",
+      "source": "Source Code",
+      "d1": {
+        "description": "An E-commerce website to sell candies. This project was built using Html, Css and Javascript with features such as product listing, product details and shopping cart."
+      },
+      "d2": {
+        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+      },
+      "d3": {
+        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+      },
+      "d4": {
+        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+      }
+    }
+  }
+}

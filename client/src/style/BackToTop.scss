@@ -1,0 +1,74 @@
+.back-to-top {
+  position: fixed;
+  bottom: 13px;
+  right: 200px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: larger;
+  font-family: "Linotte";
+  cursor: pointer;
+
+  div {
+    // Phần css mũi tên
+    &:nth-child(odd) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: x-large;
+      border: 3px solid black;
+      border-radius: 15px;
+      background-color: black;
+      width: 55px;
+      height: 20px;
+      transition-duration: 0.5s;
+    }
+  }
+
+  // Phần css chữ
+  .back-to-top-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+
+    span {
+      border-radius: 5px;
+      padding: 2px;
+      background-color: black;
+      transition-duration: 1s;
+    }
+  }
+
+  // hover để biến đổi mũi tên
+  &:hover div:nth-child(odd) {
+    height: 55px;
+    border: 3px solid yellow;
+    color: aqua;
+    border-radius: 100%;
+    transform: translateY(-25px);
+    transition-duration: 0.8s;
+  }
+
+  &:hover span:nth-child(1) {
+    color: aqua;
+    transform: skew(-5deg, -10deg) translateY(-15px) translateX(10px);
+    text-decoration: overline;
+    transition-duration: 0.8s;
+  }
+
+  &:hover span:nth-child(2) {
+    color: yellow;
+    transition-duration: 0.8s;
+  }
+
+  &:hover span:nth-child(3) {
+    color: aqua;
+    transform: skew(5deg, 10deg) translateY(-15px) translateX(-10px);
+    text-decoration: overline;
+    transition-duration: 0.8s;
+  }
+}
