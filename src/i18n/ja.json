@@ -50,6 +50,18 @@
       "b2": {
         "time": " 2023年3月 - 2023年4月",
         "name": " ア二ー ◍ 映画サイト"
+      },
+      "b3": {
+        "time": " 03/2023 - 04/2023",
+        "name": " Anie Movie And Life"
+      },
+      "b4": {
+        "time": " 03/2023 - 04/2023",
+        "name": " Anie Movie And Life"
+      },
+      "b5": {
+        "time": " 03/2023 - 04/2023",
+        "name": " Anie Movie And Life"
       }
     },
     "detail": {
@@ -60,6 +72,15 @@
       },
       "d2": {
         "description": "An E-commerce website to sell candies. This project was built using Html, Css and Javascript with features such as product listing, product details and shopping cart."
+      },
+      "d3": {
+        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+      },
+      "d4": {
+        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+      },
+      "d5": {
+        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
       }
     }
   }
