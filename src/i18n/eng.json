@@ -60,8 +60,8 @@
         "name": " Anie Movie And Life"
       },
       "b5": {
-        "time": " 03/2023 - 04/2023",
-        "name": " Anie Movie And Life"
+        "time": " 11/2023 - 12/2023",
+        "name": " TNQA-Portfolio"
       }
     },
     "detail": {
@@ -71,7 +71,7 @@
         "description": "An E-commerce website to sell candies. This project was built using Html, Css and Javascript with features such as product listing, product details and shopping cart."
       },
       "d2": {
-        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+        "description": "A movies website I created to practicing coding. Because of copyright issues, I linked it to the youtube trailer. Developed using the ReactJS and styled using Bootstrap.."
       },
       "d3": {
         "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
@@ -80,7 +80,7 @@
         "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
       },
       "d5": {
-        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+        "description": "This is a Portfolio Website I built with React.js and and styled using Scss."
       }
     }
   }

@@ -27,6 +27,13 @@
       "img": "/images/projects/movie-online.png",
       "imgMono": "/images/projects/movie-online-mono.png",
       "name": "projects.block.b4.name"
+    },
+    {
+      "id": 5,
+      "time": "projects.block.b5.time",
+      "img": "/images/projects/portfolio.png",
+      "imgMono": "/images/projects/portfolio.png",
+      "name": "projects.block.b5.name"
     }
   ],
   "projectDetail": [
@@ -84,6 +91,22 @@
       ],
       "live": "",
       "source": ""
+    },
+    {
+      "id": 5,
+      "time": "projects.block.b5.time",
+      "img": "/images/projects/portfolio.png",
+      "name": "projects.block.b5.name",
+      "description": "projects.detail.d5.description",
+      "use": [
+        "fab fa-html5",
+        "fab fa-css3-alt",
+        "fab fa-sass",
+        "fab fa-js-square",
+        "fab fa-react"
+      ],
+      "live": "https://tnqa-portfolio.netlify.app/",
+      "source": "https://github.com/anhtnq98/TNQA-Portfolio.git"
     }
   ]
 }

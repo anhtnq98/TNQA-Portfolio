@@ -297,7 +297,7 @@
       gap: 155px;
       margin-bottom: 100px;
       transform: translateX(100%);
-      animation: scroll-left 40s linear infinite;
+      animation: scroll-left 35s linear infinite;
       transition-duration: 0.5s;
     }
 
@@ -506,6 +506,9 @@
 // animation chạy list liên tục (marquee)
 @keyframes scroll-left {
   0% {
+    transform: translateX(-100%);
+  }
+  8% {
     transform: translateX(100%);
   }
   100% {

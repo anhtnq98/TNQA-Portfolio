@@ -11,11 +11,16 @@ function Projects(props) {
   const projectDetail = projects.projectDetail;
 
   const handleToDetail = (id) => {
+    // Scroll đến chỗ có trùng id với hình click chuột
     const e = document.getElementById(`${id}`);
     if (e) {
-      // 👇 Will scroll smoothly to the top of the next section
       e.scrollIntoView({ behavior: "smooth" });
     }
+  };
+
+  // Mở url trang web khác tại cửa sổ khác
+  const handleToLink = (link) => {
+    window.open(link, "_blank");
   };
 
   useEffect(() => {
@@ -105,10 +110,16 @@ function Projects(props) {
                   </div>
                   <div style={{ margin: "15px 0 5px 0" }}>***</div>
                   <div className="description-button-container">
-                    <div className="description-button">
+                    <div
+                      className="description-button"
+                      onClick={() => handleToLink(detail.live)}
+                    >
                       <span>{t("projects.detail.live")}</span>
                     </div>
-                    <div className="description-button">
+                    <div
+                      className="description-button"
+                      onClick={() => handleToLink(detail.source)}
+                    >
                       <span>{t("projects.detail.source")}</span>
                     </div>
                   </div>

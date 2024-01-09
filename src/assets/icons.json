@@ -9,6 +9,10 @@
       "name": "CSS"
     },
     {
+      "i": "fab fa-sass",
+      "name": "SCSS"
+    },
+    {
       "i": "fab fa-js-square",
       "name": "JavaScipt"
     },

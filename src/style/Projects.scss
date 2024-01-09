@@ -241,12 +241,13 @@
             border-radius: 25px;
             border: 2px solid whitesmoke;
             color: whitesmoke;
-            width: 100%;
             text-align: center;
             padding: 5px;
+            width: 100%;
             margin: 15px 0;
             font-size: larger;
             transition-duration: 1s;
+            text-decoration: none;
 
             &:hover {
               border: 2px solid aqua;
@@ -269,6 +270,16 @@
           font-size: xx-large;
           cursor: pointer;
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 1050px) {
+  .projects-container {
+    .project-detail-container {
+      .project-detail {
+        flex-wrap: nowrap;
       }
     }
   }
