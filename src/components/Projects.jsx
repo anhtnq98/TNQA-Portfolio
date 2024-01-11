@@ -1,9 +1,11 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import projects from "../assets/projects.json";
 import "../style/Projects.scss";
 
 function Projects(props) {
+  const [title, setTitle] = useState("title-none");
+
   // Đa ngôn ngữ
   const { t } = useTranslation();
 
@@ -29,12 +31,16 @@ function Projects(props) {
       left: 0,
       behavior: "smooth",
     });
+
+    setTimeout(() => {
+      setTitle("title");
+    }, 700);
   }, []);
 
   return (
     <div className="projects-container">
       {/* Title */}
-      <div id="#" className="title">
+      <div id="#" className={title}>
         <span>{t("navigators.my")}</span>
         <span>{t("navigators.project")}</span>
       </div>
