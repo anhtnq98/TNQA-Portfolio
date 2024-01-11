@@ -52,14 +52,18 @@
         "name": " Anie Movie And Life"
       },
       "b3": {
-        "time": " 03/2023 - 04/2023",
-        "name": " Anie Movie And Life"
+        "time": " 05/2023 - 07/2023",
+        "name": " Anie E - Học Tiếng Anh Online"
       },
       "b4": {
-        "time": " 03/2023 - 04/2023",
-        "name": " Anie Movie And Life"
+        "time": " 08/2023 - 09/2023",
+        "name": " Nothing"
       },
       "b5": {
+        "time": " 10/2023 - 11/2023",
+        "name": " Anytime"
+      },
+      "b6": {
         "time": " 11/2023 - 12/2023",
         "name": " TNQA-Portfolio"
       }
@@ -68,18 +72,21 @@
       "live": "Xem Bản Live",
       "source": "Nguồn Code",
       "d1": {
-        "description": "Trang web Thương Mại Điện Tử Anie Candy. Dự án này được mình viết bằng Html, Css và Javascript với các tính năng như Hiển thị danh sách sản phẩm, Chi tiết sản phẩm và Giỏ hàng."
+        "description": "Đây là dự án đầu tiên của mình. Trang web Thương Mại Điện Tử Anie Candy. Dự án này được mình viết bằng Html, Css và Javascript với các tính năng như Hiển thị danh sách sản phẩm, Chi tiết sản phẩm và Giỏ hàng."
       },
       "d2": {
         "description": "Trang web phim online mình tạo ra để luyện code, vì vấn đề bản quyền nên mình dẫn link vào trailer youtube. Được xây dựng bằng ReactJS và được tạo kiểu bằng Bootstrap.."
       },
       "d3": {
-        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+        "description": "Trang web học tiếng Anh có hệ thống cộng điểm kinh nghiệm và thăng cấp danh hiệu mỗi khi hoàn thành xong một bài."
       },
       "d4": {
-        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+        "description": "Tạm thời đang nghĩ"
       },
       "d5": {
+        "description": "Đây là giao diện website tiếng Nhật mà mình và bạn mình cùng nhau xây dựng, công nghệ được sử dụng cho giao diện là React và Scss."
+      },
+      "d6": {
         "description": "Đây là Trang Web Portfolio mà mình đã xây dựng bằng React.js và thiết kế bằng Scss"
       }
     }

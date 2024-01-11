@@ -60,6 +60,10 @@
         "name": " Anie Movie And Life"
       },
       "b5": {
+        "time": " 2023年10月 - 2023年11月",
+        "name": " エニタイム"
+      },
+      "b6": {
         "time": " 2023年12月 - 2024年1月",
         "name": " TNQA ◍ ポートフォリオ"
       }
@@ -68,19 +72,22 @@
       "live": "ライブ",
       "source": "ソースコード",
       "d1": {
-        "description": "An E-commerce website to sell candies. This project was built using Html, Css and Javascript with features such as product listing, product details and shopping cart."
+        "description": "これは私の最初のプロジェクトです。お菓子を販売するECサイトです。このプロジェクトは、製品リスト、製品詳細、ショッピング カートなどの機能を備えた Html、Css、JavaScript を使用して実行されました。"
       },
       "d2": {
-        "description": "An E-commerce website to sell candies. This project was built using Html, Css and Javascript with features such as product listing, product details and shopping cart."
+        "description": "コーディングの練習のために作った動画サイト。著作権の問題があるため、YouTubeの予告編にリンクしました。 ReactJS を使用して開発され、Bootstrap を使用してスタイル設定されています。"
       },
       "d3": {
-        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+        "description": "レッスンをクリアするごとに経験値が加算され、称号がレベルアップするシステムを備えた英語学習サイトです。"
       },
       "d4": {
-        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+        "description": "Tạm thời đang nghĩ"
       },
       "d5": {
-        "description": "A movies website where visitors can watch movies for free. Developed using the ReactJS and styled using Bootstrap.."
+        "description": "これは私が友人と一緒に作った日本のウェブサイトのインターフェイスです。React と Scss を使用してインターフェイスを作成しました。"
+      },
+      "d6": {
+        "description": "これは、React.js で構築し、Scss を使用してスタイルを設定したポートフォリオ Web サイトです。"
       }
     }
   }
